@@ -298,6 +298,7 @@ endif()
 if(BGFX_BUILD_EXAMPLES)
 	# Add examples
 	set(BGFX_EXAMPLES
+		pga
 		00-helloworld
 		01-cubes
 		02-metaballs
@@ -336,7 +337,7 @@ if(BGFX_BUILD_EXAMPLES)
 		35-dynamic
 		36-sky
 		# 37-gpudrivenrendering
-		38-bloom
+		# 38-bloom
 		39-assao
 		40-svt
 		# 41-tess
