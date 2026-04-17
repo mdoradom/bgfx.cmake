@@ -298,7 +298,7 @@ endif()
 if(BGFX_BUILD_EXAMPLES)
 	# Add examples
 	set(BGFX_EXAMPLES
-		pga
+		00-pga
 		00-helloworld
 		01-cubes
 		02-metaballs
