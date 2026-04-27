@@ -299,11 +299,12 @@ if(BGFX_BUILD_EXAMPLES)
 	# Add examples
 	set(BGFX_EXAMPLES
 		00-deferred-pga
+		00-exercise-pga
 		00-helloworld
 		01-cubes
 		02-metaballs
 		03-raymarch
-		04-mesh
+		# 04-mesh
 		05-instancing
 		06-bump
 		07-callback
